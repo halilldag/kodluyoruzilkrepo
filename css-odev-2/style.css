@@ -1,0 +1,57 @@
+.logo{
+  text-align: center;
+}
+
+.table-search{
+    background-color: rgb(221, 210, 210);
+   width: 90%;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 2px;
+   
+}
+
+.container-links {
+    display: flex;
+    gap: 2px;
+}
+
+.table-links-left{
+    width: 37%;
+    background-color: aqua;
+    margin-left: 5%;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-links-mid{
+    width: 15%;
+    background-color: rgb(25, 221, 221);
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.table-links-right{
+    width: 38%;
+    background-color: rgb(46, 167, 167);
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.google-ınc {
+    text-align: center;
+}
+
+
+
