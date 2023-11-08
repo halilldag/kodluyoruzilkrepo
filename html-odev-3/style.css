@@ -1,0 +1,91 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(240, 235, 229);
+    
+}
+img {
+    border: 6px solid pink;
+    display: block;
+    margin: auto;
+}
+main{
+    width: 900px;
+    margin: auto;
+}
+
+
+main > section:nth-child(1) h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 71, 123);
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+main > section:nth-child(1) p {
+    text-align: center;
+}
+
+main > section:nth-child(3) ul {
+    display: flex;
+    text-decoration: none;
+    gap: 100px;
+    justify-content: center;
+    background-color: rgb(243, 71, 123);
+    border-radius: 20px;    
+}
+
+main > section:nth-child(3) ul li {
+    color: white;
+    font-size: 20px;
+}
+
+main > section:nth-child(4) div {
+    background-color: pink;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+main > section:nth-child(4) article {
+    text-align: center;
+}
+
+main > section:nth-child(4) article ul {
+    display: inline-block;
+    text-align: left;
+}
+
+main > section:nth-child(4) li {
+  margin-bottom: 10px;
+ 
+}
+
+main > section:nth-child(4) article ol {
+    display: inline-block;
+    text-align: left;
+}
+main > section:nth-child(5) {
+    background-color: rgb(243, 71, 123);
+    border-radius: 20px;
+    
+}
+main > section:nth-child(5) p {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
